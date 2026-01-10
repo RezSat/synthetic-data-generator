@@ -132,7 +132,7 @@ def register_fonts(font_dir: str) -> Dict[str, str]:
 def draw_header(c: canvas.Canvas, page: Page, fonts: Dict[str, str]) -> None:
     """
     Simple tri-lingual header block (approximate).
-    Adjust text/positions to match your exact EPF K scan if needed.
+    Adjust text/positions to match exact EPF K scan if needed.
     """
     left_margin = 50
     center_x = page.width / 2.0
@@ -176,7 +176,7 @@ def draw_field1_name(c: canvas.Canvas, page: Page, fonts: Dict[str, str]) -> Dic
     label_y = top_y - 2
     line_gap = 12  # vertical spacing between label lines (pt)
 
-    # NOTE: Replace these strings with the exact official translations you want.
+    # NOTE: Replace these strings with the exact official translations I want.
     si = "සාමාජිකයාගේ සම්පූර්ණ නම"
     ta = "உறுப்பினரின் முழுப்பெயர்"
     en = "Full Name of member"
@@ -186,7 +186,7 @@ def draw_field1_name(c: canvas.Canvas, page: Page, fonts: Dict[str, str]) -> Dic
     draw_text_tl(c, page, label_x, label_y + 2 * line_gap, en, fonts["EN"], 10)
 
     # Input line starts after label block
-    label_block_w = 210  # tweak for your form
+    label_block_w = 210  # tweak for the form
     input_x1 = label_x + label_block_w + 10
     input_x2 = page.width - right_margin
 
