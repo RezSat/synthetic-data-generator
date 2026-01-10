@@ -9,3 +9,5 @@ Therefore next step is to levarage that.
 Playwright method is the best as it runs on the chromium engine (or chrome) and is the arguably the best rendering engine available.
 
 so we building the document using html, css and use jinja to create templates.
+
+But on the second thought, creating templates is not going to work because then the model/system will fail on completely different layout. Instead a better way to do this is using atomic elements.
