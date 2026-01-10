@@ -24,3 +24,5 @@ The Logic:
     Roll Dice (Row 2): Result = "Two Column Text".  Draw two paragraphs side-by-side.
     Roll Dice (Row 3): Result = "Table".  Draw a random table with 3 rows and 4 columns.
     Roll Dice (Row 4): Result = "Checklist".  Draw 5 lines of text with squares on the right
+
+Gemini help me refine the script "frankenstein.py" which generated the dataset_v1, using the predefined blocks and randomizing the placement of these blocks on an A4 sized imge. By adding more block types and using different filling areas on the paper we could generate an enormous amount of dataset.
