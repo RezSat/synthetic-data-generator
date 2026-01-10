@@ -4,6 +4,8 @@ Renders Sinhala/Tamil text as images to ensure correct shaping (ligatures).
 Output:
 - PDF (Visuals are perfect images of text)
 - JSON (Ground Truth Bounding Boxes)
+
+This also generated the same result no different.
 """
 
 import os
