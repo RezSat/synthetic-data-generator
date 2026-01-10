@@ -26,3 +26,5 @@ The Logic:
     Roll Dice (Row 4): Result = "Checklist".  Draw 5 lines of text with squares on the right
 
 Gemini help me refine the script "frankenstein.py" which generated the dataset_v1, using the predefined blocks and randomizing the placement of these blocks on an A4 sized imge. By adding more block types and using different filling areas on the paper we could generate an enormous amount of dataset.
+
+so started by thinking of using LayoutLMv3 but turns out our dataset is the wrong dataset for it and therefore now we are usimng YOLO instead of that.
