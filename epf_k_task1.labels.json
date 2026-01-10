@@ -1,0 +1,30 @@
+{
+  "schema_version": "formir.v1.minlabel",
+  "document": {
+    "doc_id": "epf_k_task1",
+    "origin": "top-left",
+    "units": {
+      "bbox_px": "css_px",
+      "bbox_pt": "pt"
+    },
+    "labels": [
+      {
+        "id": "field1_name_input",
+        "type": "input_area",
+        "page_index": 0,
+        "bbox_px": [
+          377.92,
+          294.8,
+          370.42,
+          27.45
+        ],
+        "bbox_pt": [
+          283.44,
+          221.1,
+          277.82,
+          20.59
+        ]
+      }
+    ]
+  }
+}
