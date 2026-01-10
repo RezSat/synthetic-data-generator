@@ -11,3 +11,16 @@ Playwright method is the best as it runs on the chromium engine (or chrome) and 
 so we building the document using html, css and use jinja to create templates.
 
 But on the second thought, creating templates is not going to work because then the model/system will fail on completely different layout. Instead a better way to do this is using atomic elements.
+
+so the new idea is Data Generator should be randomized.
+We manuallly declare atomic blocks then start with a blank A4 sheet add different parts by randonmizing so we have many variations for the dataset.
+
+text_block -> <p>
+key_value_pair -> <div class="field"> ex: "Name: ................"
+
+The Logic:
+    Start Page: Blank A4.
+    Roll Dice (Row 1): Result = "Header".  Draw centered bold text.
+    Roll Dice (Row 2): Result = "Two Column Text".  Draw two paragraphs side-by-side.
+    Roll Dice (Row 3): Result = "Table".  Draw a random table with 3 rows and 4 columns.
+    Roll Dice (Row 4): Result = "Checklist".  Draw 5 lines of text with squares on the right
