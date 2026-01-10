@@ -1,0 +1,25 @@
+{
+  "schema_version": "formir.v1.minlabel",
+  "document": {
+    "doc_id": "out",
+    "page_size": [
+      595.28,
+      841.89
+    ],
+    "labels": [
+      {
+        "id": "field1_name_input",
+        "type": "input_area",
+        "page_index": 0,
+        "bbox": [
+          292,
+          257.0,
+          253.28,
+          18.0
+        ],
+        "units": "pt",
+        "origin": "top-left"
+      }
+    ]
+  }
+}
