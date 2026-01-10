@@ -28,3 +28,5 @@ The Logic:
 Gemini help me refine the script "frankenstein.py" which generated the dataset_v1, using the predefined blocks and randomizing the placement of these blocks on an A4 sized imge. By adding more block types and using different filling areas on the paper we could generate an enormous amount of dataset.
 
 so started by thinking of using LayoutLMv3 but turns out our dataset is the wrong dataset for it and therefore now we are usimng YOLO instead of that.
+
+Alright generated 1000 with frakensteinv2 and then train the model with YOLO and it gives pretty decent results.
