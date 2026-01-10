@@ -106,7 +106,7 @@ def register_fonts(font_dir: str) -> Dict[str, str]:
     """
     font_files = {
         "EN": ("NotoSans", "NotoSans-Regular.ttf"),
-        "SI": ("NotoSansSinhala", "NotoSansSinhala-Regular.ttf"),
+        "SI": ("NotoSansSinhala", "Iskoola-Pota-Regular.ttf"),
         "TA": ("NotoSansTamil", "NotoSansTamil-Regular.ttf"),
     }
 
