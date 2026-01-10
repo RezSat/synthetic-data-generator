@@ -30,3 +30,5 @@ Gemini help me refine the script "frankenstein.py" which generated the dataset_v
 so started by thinking of using LayoutLMv3 but turns out our dataset is the wrong dataset for it and therefore now we are usimng YOLO instead of that.
 
 Alright generated 1000 with frakensteinv2 and then train the model with YOLO and it gives pretty decent results.
+
+next step is OCR
