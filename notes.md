@@ -7,3 +7,5 @@ so completely ditch them and instead I tried to write a custom rendering engine 
 Therefore next step is to levarage that.
 
 Playwright method is the best as it runs on the chromium engine (or chrome) and is the arguably the best rendering engine available.
+
+so we building the document using html, css and use jinja to create templates.
