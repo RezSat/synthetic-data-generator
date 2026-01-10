@@ -1,0 +1,3 @@
+This repo is completely chaotic and is intended to be that way. I have no plans to clean it up until I figure out the best possible way to generate a dataset for my trilingual layout detection model. For now, this remains the hosting place for all of my experimentation and scripts.
+
+When I figure out a proper workflow, I will clean this repo and write proper documentation on the generation methods and whatever else comes to mind at that time. Until then, you don't want to look here because it is ugly.
